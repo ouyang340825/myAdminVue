@@ -1,6 +1,5 @@
 var models = require('./db');//数据库链接信息
 var express = require('express');
-var nanoid = require('nanoid');
 var router = express.Router();
 var mysql = require('mysql');
 var $sql = require('./sqlfun');//sql语句

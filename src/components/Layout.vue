@@ -35,6 +35,7 @@
 <script>
 
   export default{
+    name:"layout",
     data() {
       return{
         loginData: {
@@ -60,11 +61,6 @@
     margin-top: 5px;
   }
 
-  .fa-user {
-    position: relative;
-    top: -2px;
-    margin-right: 4px;
-  }
 
   .head-nav {
     width: 100%;

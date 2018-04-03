@@ -1,22 +1,30 @@
 <template>
-  <div id="app">
+  <div id="app" style="height: 100%">
+    <Headers/>
+    <LeftMenu/>
     <router-view/>
   </div>
 </template>
 
 <script>
+  import Headers from "./layout/Header"
+  import LeftMenu from "./layout/LeftMenu"
+
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    Headers,LeftMenu
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  *{
+    margin:0;padding:0;
+  }
+
+  html,body {
+    width:100%;height:100%;
+  }
+
 </style>
