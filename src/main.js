@@ -8,6 +8,8 @@ import Layout from '@/components/Layout';
 import VueResource from 'vue-resource';
 import 'element-ui/lib/theme-chalk/index.css'
 import ElementUI from 'element-ui';
+/*import IconSvg from '@/components/IconSvg'
+Vue.component('icon-svg', IconSvg)*/
 Vue.use(VueResource);
 Vue.use(ElementUI);
 
